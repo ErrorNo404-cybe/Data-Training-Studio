@@ -198,3 +198,7 @@ elif operation == "🤖 Machine Learning":
     st.subheader("Feature Importance")
     fig = px.bar(importance, x='importance', y='feature', orientation='h')
     st.plotly_chart(fig)
+    
+st.markdown("---")
+st.caption("💡 Built with ❤️ using Streamlit")
+st.caption("© 2025 Avash's Data Training Studio. All rights reserved.")
